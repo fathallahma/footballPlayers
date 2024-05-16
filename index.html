@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations sur les joueurs de football</title>
+    <!-- Styles CSS pour le design -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-image: url('https://www.nantes-gazon.com/wp-content/uploads/2014/07/fond-slide1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .player-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .player-info img {
+            max-width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .player-info-text {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        #botpress-webchat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Informations sur les joueurs de football</h1>
+            <p>Découvrez des informations sur Ronaldo, Messi et Mbappé.</p>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <div class="player-info">
+                <img src="https://media.ouest-france.fr/v1/pictures/MjAyNDA0ODNjZGM3OGM3NDQ0NGJiOGE1ZThkMmEyN2RmNjU4MGY?width=1260&height=708&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=a369e32e92f61b52ca46787a557049041b79cf5b91bc13102893aecdd42027c4" alt="Cristiano Ronaldo">
+                <div class="player-info-text">
+                    <h2>Ronaldo</h2>
+                    <p>Cristiano Ronaldo, né le 5 février 1985 à Funchal (Madère), est un footballeur international portugais évoluant au poste d'attaquant.</p>
+                    <p>Il est considéré comme l'un des meilleurs joueurs de tous les temps, ayant remporté de nombreux titres individuels et collectifs au cours de sa carrière.</p>
+                    <p>Ronaldo a joué pour des clubs tels que le Sporting Portugal, Manchester United, le Real Madrid et la Juventus. Il est également un joueur clé de l'équipe nationale portugaise.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="player-info">
+                <img src="https://fifpro.org/media/5chb3dva/lionel-messi_imago1019567000h.jpg?rxy=0.32986930611281567,0.18704579979466449&rnd=133378758718600000" alt="Lionel Messi">
+                <div class="player-info-text">
+                    <h2>Messi</h2>
+                    <p>Lionel Messi, né le 24 juin 1987 à Rosario (Argentine), est un footballeur international argentin considéré comme l'un des plus grands joueurs de l'histoire du football.</p>
+                    <p>Il est connu pour ses dribbles incroyables, sa vision du jeu et sa capacité à marquer des buts spectaculaires.</p>
+                    <p>Messi a passé la majeure partie de sa carrière au FC Barcelone, où il a remporté de nombreux titres nationaux et internationaux. Il a également remporté plusieurs Ballons d'Or, récompensant le meilleur joueur du monde.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="player-info">
+                <img src="https://cdn-s-www.lalsace.fr/images/525930D8-AA1C-4620-AE22-DA7C9666677F/NW_raw/kylian-mbappe-est-un-joueur-du-paris-saint-germain-depuis-le-mois-d-aout-2017-photo-sipa-1686654312.jpg" alt="Kylian Mbappé">
+                <div class="player-info-text">
+                    <h2>Mbappé</h2>
+                    <p>Kylian Mbappé, né le 20 décembre 1998 à Bondy (France), est un footballeur international français qui joue principalement en tant qu'attaquant.</p>
+                    <p>Il est réputé pour sa vitesse, sa technique et sa capacité à marquer des buts décisifs. Mbappé a déjà remporté plusieurs titres nationaux et internationaux, notamment la Coupe du Monde avec l'équipe de France en 2018.</p>
+                    <p>Il a commencé sa carrière professionnelle au Paris Saint-Germain et est souvent considéré comme l'un des jeunes talents les plus prometteurs du football mondial.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Div pour contenir le chatbot -->
+    <div id="botpress-webchat"></div>
+
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/63dc8c7b-7b9d-41d9-b805-2163c1a6a71e/webchat/config.js" defer></script>
+</body>
+
+</html>
+
+
